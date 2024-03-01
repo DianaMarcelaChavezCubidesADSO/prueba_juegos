@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --header: 90px;
+}
+
+body{
+  background-color: #f7f7f7;
+   font-size: 16px;
+   font-family: "open sans" ,sans-serif;
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+ /* width: 500px;
+  height: 500px;*/
+}
+
+
+.contenedor{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header_menu{
+  height: var(--header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #11f2ff;
+  margin: 50px 250px;
+  
+}
+.nav_list{
+  display: flex;  
+  align-items:center;
+  gap: 7rem;
+  list-style: none;
+}
+.nav_item{
+  padding: 24px;
+}
+
+.nav_link{
+  color: #605656;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.header_logo{
+  margin-left: 50px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+}
+/**-------------------
+-----section inicio ----
+-------------------**/
+.section_2{
+  /*height: calc(100vh - var(--header));*/
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  
+}
+.section__titulo{
+  color: aliceblue;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 70px;
+   /* padding-left: 190px; */
+
+
+}
+.titulo__3{
+  color: aliceblue;
+  font-size: 90px;
+   align-items: center;
+
+}
+.titulo__2{
+  font-size: 70px;
+  /* padding-left: 80px; */
+}
+.titulo__1{
+  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px 10px;
+}
+
+
+.section_botonn{
+  padding: 50px 10px;
+}
+.botonn{
+  background: #fefefe;
+  padding: 12px 24px;
+  color: #090808;
+  text-decoration: none;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+.uno{
+  background-color: beige;
+ width: 10px;
+ height: 10px;
+
+}
+.dos{
+ background-color: rgb(135, 135, 20);
+ width: 10px;
+ height: 10px;
+}
+.tres{
+ background-color: rgb(53, 39, 122);
+ width: 10px;
+ height: 10px;
+}
